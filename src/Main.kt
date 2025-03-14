@@ -4,6 +4,7 @@ fun main () {
     name()
     friends()
     tempat()
+    update()
 }
 fun name() {
     val name = "nama aku Filzah"
@@ -20,5 +21,9 @@ fun tempat(){
         "BTH" to "Batam",
     )
     println(kota)
+}
+fun update(){
+    val news = "on git repository"
+    println(news)
 }
 
